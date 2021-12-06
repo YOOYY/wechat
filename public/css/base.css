@@ -1,0 +1,138 @@
+body{
+    /* overflow-x:scroll; */
+}
+.margin_bottom{
+    margin-bottom:20px;
+}
+.fl{
+    float: left;
+}
+.pusher{
+    padding:30px;
+    width: calc(100% - 180px);
+}
+.clearfix:after{
+	content: '';
+	clear: both !important;
+	width:0;height: 0;
+	display:block;
+}
+.mymenu .flex-container {
+    display: -webkit-flex;
+    display: flex;
+    width: 290px;
+    height: 45px;
+    background-color: lightgrey;
+}
+.mymenu .flex-item {
+    background-color: cornflowerblue;
+    border:1px solid black;
+    -webkit-flex: 1;
+    flex: 1;
+    position: relative;
+    text-align:center;
+    font-size: 16px;
+    line-height: 45px;
+}
+.mymenu .flex-item>div{
+    position:absolute;
+    bottom: 100%;
+    left: 0;
+    width: 100%;
+    display: none;
+}
+.mymenu .submenu{
+    background-color: lightgrey;
+}
+.pagemenu{
+    position:relative;
+    width: 294px;
+    overflow: hidden;
+}
+.right{
+    float: right;
+}
+#right,#left{
+    background:white;
+}
+.page{
+    position:absolute;
+    left: 42px;
+}
+.page a{
+    float: left;
+}
+
+#luckypanel input{
+    margin:20px;
+}
+
+div.zxf_pagediv{
+	text-align: center;
+	color: #999999;
+	padding: 20px 20px 40px 0;
+}
+div.zxf_pagediv a{
+	text-decoration: none;
+	
+}
+div.zxf_pagediv span,div.zxf_pagediv a{
+	display: inline-block;
+	box-sizing: border-box;
+}
+.current{
+	color: #ffffff;
+	background: #1ABC9C;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 3px;
+}
+.zxfPagenum{
+	color: #666;
+	background: #fff;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	margin: 0 5px;
+	border-radius: 3px;
+}
+.nextpage{
+
+	margin: 0 5px;
+}
+.nextbtn,.prebtn,span.disabled{
+	color: #666;
+	background: #fff;
+	width: 88px;
+	height: 42px;
+	line-height: 42px;
+	border-radius: 3px;
+}
+.zxfinput{
+	width: 50px;
+	height: 42px;
+	text-align: center;
+	box-sizing: border-box;
+	border: 1px solid #E6E6E6;
+	margin: 0 12px;
+	border-radius: 3px;
+	color: #666;
+}
+.zxfokbtn{
+	width: 48px;
+	height: 32px;
+	line-height: 32px;
+	border: 1px solid #E6E6E6;
+	margin-left: 10px;
+	cursor:pointer;
+	border-radius: 3px;
+	background: #fff;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+input[type="number"]{
+  -moz-appearance: textfield;
+}
